@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+.env
+exports/*.xlsx
+uploads/cheques/*
+uploads/receipts/*
+!uploads/cheques/sample-cheque.svg
+!uploads/receipts/sample-deposit-slip.svg

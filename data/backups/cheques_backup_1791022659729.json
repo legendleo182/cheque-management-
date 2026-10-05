@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "firms": [
+      {
+        "id": "RD",
+        "name": "Reliable Drapes",
+        "color": "blue",
+        "badge": "🔵 RD"
+      },
+      {
+        "id": "SAF",
+        "name": "Shree Ambica Furnishings India Pvt Ltd",
+        "color": "green",
+        "badge": "🟢 SAF"
+      }
+    ],
+    "defaultSirName": "Nisar Sir",
+    "defaultActionPersons": [
+      "Sent to PNP",
+      "Rakesh Sir",
+      "Ashok Ji",
+      "Raju Ji",
+      "Nisar Sir"
+    ]
+  },
+  "cheques": [
+    {
+      "id": "CLR-0001",
+      "srNo": 1,
+      "firm": "RD",
+      "moduleType": "CLEARING",
+      "chequeNumber": "999001",
+      "partyName": "TEST TRADERS",
+      "bankName": "HDFC Bank",
+      "branch": "",
+      "amount": 15000,
+      "chequeDate": "2026-10-15",
+      "clearingDate": "2026-10-15",
+      "sentToBankDate": "",
+      "actualClearDate": "",
+      "holdDate": "",
+      "holdReason": "",
+      "instructionBy": "",
+      "returnDate": "",
+      "returnReason": "",
+      "actionTaken": "",
+      "recoveryStatus": "UNRESOLVED",
+      "status": "POST_DATED",
+      "chequePhoto": "",
+      "receiptPhoto": "",
+      "remarks": "",
+      "createdAt": "2026-10-03T10:17:39.728Z"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="slipBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="100%" stop-color="#dcfce7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Slip Body -->
+  <rect x="10" y="10" width="580" height="380" rx="8" fill="url(#slipBg)" stroke="#86efac" stroke-width="2"/>
+
+  <!-- Bank Header -->
+  <rect x="10" y="10" width="580" height="60" fill="#166534" rx="8"/>
+  <circle cx="45" cy="40" r="18" fill="#ffffff"/>
+  <circle cx="45" cy="40" r="10" fill="#166534"/>
+  <rect x="42" y="32" width="6" height="16" fill="#ffffff"/>
+  
+  <text x="80" y="35" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">STATE BANK OF INDIA</text>
+  <text x="80" y="52" font-family="sans-serif" font-size="11" fill="#bbf7d0">PAY-IN-SLIP / CHEQUE DEPOSIT COUNTERFOIL (क्लीयरिंग रसीद)</text>
+
+  <!-- Branch and Date -->
+  <g transform="translate(30, 90)">
+    <text x="0" y="15" font-family="sans-serif" font-size="11" font-weight="bold" fill="#334155">BRANCH: Main Commercial Branch</text>
+    <text x="350" y="15" font-family="sans-serif" font-size="11" font-weight="bold" fill="#334155">DATE: 03-10-2026</text>
+  </g>
+
+  <!-- Account Details Box -->
+  <g transform="translate(30, 120)">
+    <rect x="0" y="0" width="540" height="70" fill="#ffffff" stroke="#cbd5e1" rx="4"/>
+    <text x="15" y="25" font-family="sans-serif" font-size="11" font-weight="bold" fill="#475569">CURRENT A/C NO:</text>
+    <text x="150" y="25" font-family="monospace" font-size="14" font-weight="bold" fill="#0f172a">3892 0192 8301</text>
+
+    <text x="15" y="50" font-family="sans-serif" font-size="11" font-weight="bold" fill="#475569">NAME OF A/C HOLDER:</text>
+    <text x="150" y="50" font-family="sans-serif" font-size="12" font-weight="bold" fill="#0f172a">MY BUSINESS ACCOUNTS PVT LTD</text>
+  </g>
+
+  <!-- Cheque Specifics Table -->
+  <g transform="translate(30, 205)">
+    <rect x="0" y="0" width="540" height="90" fill="#ffffff" stroke="#cbd5e1" rx="4"/>
+    <line x1="0" y1="28" x2="540" y2="28" stroke="#cbd5e1"/>
+    
+    <text x="15" y="20" font-family="sans-serif" font-size="10" font-weight="bold" fill="#64748b">CHEQUE NO.</text>
+    <text x="130" y="20" font-family="sans-serif" font-size="10" font-weight="bold" fill="#64748b">DRAWEE BANK</text>
+    <text x="280" y="20" font-family="sans-serif" font-size="10" font-weight="bold" fill="#64748b">AMOUNT (₹)</text>
+    <text x="420" y="20" font-family="sans-serif" font-size="10" font-weight="bold" fill="#64748b">CLEARING TYPE</text>
+
+    <text x="15" y="55" font-family="monospace" font-size="12" font-weight="bold" fill="#0f172a">114520</text>
+    <text x="130" y="55" font-family="sans-serif" font-size="11" font-weight="bold" fill="#0f172a">ICICI Bank Ltd</text>
+    <text x="280" y="55" font-family="sans-serif" font-size="14" font-weight="bold" fill="#15803d">₹ 2,30,000.00</text>
+    <text x="420" y="55" font-family="sans-serif" font-size="11" fill="#475569">CTS Clearing</text>
+  </g>
+
+  <!-- Bank Stamp Seal -->
+  <g transform="translate(390, 290)">
+    <circle cx="65" cy="45" r="42" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="4 2"/>
+    <circle cx="65" cy="45" r="36" fill="none" stroke="#2563eb" stroke-width="1"/>
+    <text x="25" y="38" font-family="sans-serif" font-size="9" font-weight="bold" fill="#2563eb" letter-spacing="1">STATE BANK OF INDIA</text>
+    <text x="35" y="50" font-family="sans-serif" font-size="11" font-weight="black" fill="#1d4ed8">RECEIVED</text>
+    <text x="32" y="62" font-family="sans-serif" font-size="9" font-weight="bold" fill="#2563eb">03 OCT 2026</text>
+    <text x="28" y="74" font-family="sans-serif" font-size="8" fill="#2563eb">CLEARING DEPT.</text>
+  </g>
+
+  <!-- Depositor Sign -->
+  <g transform="translate(50, 340)">
+    <line x1="0" y1="0" x2="160" y2="0" stroke="#94a3b8"/>
+    <text x="15" y="15" font-family="sans-serif" font-size="10" font-weight="bold" fill="#475569">SIGNATURE OF DEPOSITOR</text>
+  </g>
+</svg>

@@ -1,0 +1,129 @@
+/* Custom Styles for ChequeMaster Pro */
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Tab button active state */
+.tab-btn {
+  color: #475569;
+  border: 1px solid transparent;
+}
+.tab-btn:hover {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+.tab-btn.active {
+  background-color: #1e3a8a !important;
+  color: #ffffff !important;
+  border-color: #1e3a8a !important;
+  box-shadow: 0 4px 6px -1px rgba(30, 58, 138, 0.25);
+}
+.tab-btn.active .tab-badge {
+  background-color: #ffffff !important;
+  color: #1e3a8a !important;
+}
+
+/* Firm Switch Buttons */
+.firm-switch-btn {
+  color: #94a3b8;
+}
+.firm-switch-btn.active {
+  color: #ffffff !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+/* Spreadsheet Table Styling */
+table th, table td {
+  white-space: nowrap;
+}
+table tbody tr:hover td {
+  background-color: rgba(241, 245, 249, 0.7);
+}
+
+/* Animations */
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.92;
+    transform: scale(1.02);
+  }
+}
+
+.pulse-alert {
+  animation: pulse-subtle 2s infinite ease-in-out;
+}
+
+/* Cheque card styling */
+.cheque-card {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.cheque-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+}
+
+/* Print Styles */
+@media print {
+  header, #urgentAlertsContainer, .stat-card, #searchInput, .tab-btn, button, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .cheque-card {
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+    margin-bottom: 12px !important;
+  }
+}
+
+/* Mobile Responsive Optimization (Phones & Small Tablets) */
+@media (max-width: 768px) {
+  /* Prevent iOS Safari / Android Chrome auto-zooming on input focus */
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="password"],
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+
+  /* Smooth native-like touch momentum scrolling */
+  .overflow-x-auto, .overflow-y-auto {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Optimize table cell padding on small mobile screens */
+  table th, table td {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    font-size: 11px !important;
+  }
+}

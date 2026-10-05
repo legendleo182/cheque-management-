@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "firms": [
+      {
+        "id": "RD",
+        "name": "Reliable Drapes",
+        "color": "blue",
+        "badge": "🔵 RD"
+      },
+      {
+        "id": "SAF",
+        "name": "Shree Ambica Furnishings India Pvt Ltd",
+        "color": "green",
+        "badge": "🟢 SAF"
+      }
+    ],
+    "defaultSirName": "Nisar Sir",
+    "defaultActionPersons": [
+      "Sent to PNP",
+      "Rakesh Sir",
+      "Ashok Ji",
+      "Raju Ji",
+      "Nisar Sir"
+    ]
+  },
+  "cheques": [
+    {
+      "id": "RET-0001",
+      "srNo": 1,
+      "firm": "SAF",
+      "moduleType": "RETURNED",
+      "chequeNumber": "000255",
+      "partyName": "DECOR VATIKA (LUDHIANA)",
+      "bankName": "HDFC Bank (India)",
+      "branch": "",
+      "amount": 25000,
+      "chequeDate": "2026-09-30",
+      "clearingDate": "2026-09-30",
+      "sentToBankDate": "2026-10-03",
+      "actualClearDate": "",
+      "holdDate": "",
+      "holdReason": "",
+      "instructionBy": "",
+      "returnDate": "",
+      "returnReason": "Insufficient Funds",
+      "actionTaken": "",
+      "recoveryStatus": "UNRESOLVED",
+      "status": "SENT_FOR_CLEARING",
+      "chequePhoto": "",
+      "receiptPhoto": "",
+      "remarks": "",
+      "createdAt": "2026-10-03T13:08:05.373Z"
+    }
+  ]
+}

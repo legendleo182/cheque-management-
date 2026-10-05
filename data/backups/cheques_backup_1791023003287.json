@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "firms": [
+      {
+        "id": "RD",
+        "name": "Reliable Drapes",
+        "color": "blue",
+        "badge": "🔵 RD"
+      },
+      {
+        "id": "SAF",
+        "name": "Shree Ambica Furnishings India Pvt Ltd",
+        "color": "green",
+        "badge": "🟢 SAF"
+      }
+    ],
+    "defaultSirName": "Nisar Sir",
+    "defaultActionPersons": [
+      "Sent to PNP",
+      "Rakesh Sir",
+      "Ashok Ji",
+      "Raju Ji",
+      "Nisar Sir"
+    ]
+  },
+  "cheques": []
+}
